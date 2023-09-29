@@ -9,7 +9,7 @@ from collections import OrderedDict
 sw = Pin(23, Pin.IN)
 led = Pin(2, Pin.OUT)
 d = dht.DHT22(Pin(25))
-print("esperand pulsador")
+print("esperando pulsador")
 contador=0
 
 while True:
